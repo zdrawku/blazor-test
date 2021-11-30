@@ -23,4 +23,5 @@ void RegisterIgniteUI(IServiceCollection services)
     services.AddIgniteUIBlazor(typeof(IgbInputModule));
     services.AddIgniteUIBlazor(typeof(IgxCardModule));
     services.AddIgniteUIBlazor(typeof(IgxRadioModule));
+    services.AddIgniteUIBlazor(typeof(IgbDataGridModule));
 }
